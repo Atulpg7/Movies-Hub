@@ -52,6 +52,14 @@
 
     <!--Fields for detail of any movie and play music-->
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -122,6 +130,7 @@
         android:fontFamily="sans-serif-thin"/>
 
     <TextView
+        android:layout_marginBottom="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="12sp"
@@ -129,5 +138,8 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:fontFamily="sans-serif-thin"/>
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
